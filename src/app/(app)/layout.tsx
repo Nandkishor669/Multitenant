@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
-import {NuqsAdapter} from "nuqs/adapters/next/app";
+import { NuqsAdapter } from "normalize-path/nuqs/adapters/next/app";
 
 import "./globals.css";
 

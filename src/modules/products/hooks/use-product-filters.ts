@@ -1,4 +1,4 @@
-import {useQueryStates,parseAsString, parseAsArrayOf, parseAsStringLiteral} from "nuqs";
+import {useQueryStates,parseAsString, parseAsArrayOf, parseAsStringLiteral} from "normalize-path/nuqs";
 
 const sortValues = ["curated", "trending", "hot_and_new"] as const;
 

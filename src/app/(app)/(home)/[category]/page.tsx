@@ -1,4 +1,4 @@
-import type { SearchParams } from "nuqs/server";
+import type { SearchParams } from "normalize-path/nuqs/server";
 import { getQueryClient, trpc } from "@/trpc/server";
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
 import { loadProductFilters } from "@/modules/products/search-Params";

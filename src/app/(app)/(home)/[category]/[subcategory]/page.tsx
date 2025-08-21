@@ -3,7 +3,7 @@ import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
 
 import { ProductListView } from "@/modules/products/ui/views/product-list-view";
 import { loadProductFilters } from "@/modules/products/search-Params";
-import { SearchParams } from "nuqs/server";
+import { SearchParams } from "normalize-path/nuqs/server";
 import { DEFAULT_LIMIT } from "@/constants";
 
 
