@@ -1,7 +1,7 @@
 import type { SearchParams } from "nuqs/server";
 
 import { DEFAULT_LIMIT } from "@/constants";
-import {trpc} from "@trpc/server";
+import {trpc} from "@/trpc/server";
 
 import { ProductListView } from "@/modules/products/ui/views/product-list-view";
 import { loadProductFilters } from "@/modules/products/search-Params";
@@ -26,7 +26,7 @@ const Page = async ({params, searchParams}: Props) => {
 
     return ( 
         <HydrationBoundary state={dehydrate(queryClient)}>
-            <ProductListView tenantSlug={slug}/>
+            <ProductListView tenantSlug={slug} narrowView/>
         </HydrationBoundary>
     );
 }
